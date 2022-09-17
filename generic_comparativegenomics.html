@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic Page - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index_home.html" class="logo">Kaede Hirabayashi</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index_home.html">Home</a></li>
+							<li class="active"><a href="research.html">Research</a></li>
+							<li><a href="generic.html">Profile</a></li>
+							<li><a href="publications.html">Publications</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<a href="generic_lingonberry.html">Previous project</a><br />
+								<a href="index_home.html">Back to home</a>
+								<header class="major">
+									<h1>Evolution of inversions in plant genomes<br />
+									</h1>
+									<p>Plant genomes are known for their incredible diversity and complexity, even among eukaryotes, which has been challenging their assembly for decades. <br />
+										In the era of long-read sequencing technologies, however, plant genomic resources are richer than ever, with multiple high-quality, chromosome-resolved genome assemblies published every year.<br />
+										Taking advantage of this, we performed comparative analysis of 32 genus-paired eudicot genomes. </p>
+								</header>
+								<!-- Break -->
+								<hr />
+							<p>The raw material for evolution is genomic variation.
+							Genomic variation can be found at micro-scale such as individual nucleotide mutation (substitution, insertion, deletion, single nucleotide polymorphism or SNPs),
+							as well as more macro-scale variations. These variations that span a larger region in the genome are referred to as structural variations or SVs.
+							They can occur at any sizes from small (a gene) to large segments (whole genome like polyploid). Examples include inversion, duplication, translocation.
+							<span class="image fit"><img src="images/inversion_intro.png" alt="" /></span>
+							</p>
+							<h2>Role of inversions in adaptation and speciation</h2>
+							<span class="image left"><img src="images/sunflower_photos.png" alt="" /></span><p>Inversions are particularly interesting because of their potential roles involved in adaptation. They suppress recombination in heterozygous individuals as chromosomes don't align properly during meiosis.
+								The mechanisms of how inversions contribute to the adaptation or speciation process have been historically debated. </p>
+								<p>It is a good reminder to say that a genomic mutant of any type which results in phenotypic change is mostly deleterious in nature. What this means is that many SVs that might have occurred in the past do not exist in the observed population today because they died off in a single generation. Meanwhile, there are cases where inversions happened to be persisted so that they are observed in the present-day genomes. The local adaptation hypothesis has gained the most empirical support to explain this phenomenon. Genomic inversions spanning multiple genes (sometimes hundreds) have been observed and shown to be linked with the adaptation of species/populations to the local environment across many different organisms (e.g., sunflower, monkeyflower, invasive crab, white throated sparrow, ruff).</p>
+
+						<header>
+							<h2>What about inversions that are neutral? How do they occur?</h2>
+							<span class="image right"><img src="images/inversion_graphic.png" alt="" /></span>
+							While adaptive inversions gain a lot of attention, comparatively little is known about how inversions behave at neutral.
+							For any evolutionary implications to make sense, one must show a significant variance from neutral expectations.
+							Not all inversions are adaptive, nor need to be, in order to be fixed. <br /><p></p>
+							There are well-established theories on inversions and their molecular mechanisms, but empirical support is scarce.
+							The important questions that we tried to address in this project are:
+								<li>How often do inversions occur in nature?</li>
+								<li>How fast do inversions fix in a population by drift or random chance?</li>
+								<li>What molecular mechanisms drive inversions?</li>
+								<li>What are the potential consequences of neutral inversions?</li><br />
+						</header>
+						</section>
+
+							<!-- breaks -->
+						<header>
+							<h2>What did we learn from 32 genus-pair analysis?</h2>
+								<span class="image right"><img src="images/inv_syn_32_species_pair.png" alt="" /></span>
+								Most species show a similar distribution of sequence divergence in inversions compared to syntenic regions (x-axis is nucleotide sequence identity between the species pair).
+								Except, a few species pair like Salvia show a different shape (distribution) and peak position (mean sequence divergence)
+								between inversion and syntenic regions. This may indicate a different evolutionary history in inversions which could be interesting to follow up.
+								<p></p>
+							<h3>Do inversions occur/accumulate transposable elements or coding sequences? </h3>
+							With the idea that structural variants like inversions are mostly deleterious, we expect inversions to occur at regions where they aren't functionally important (i.e., coding sequences or CDS).
+							With the idea that mobile, repetitive elements like transposable elements (TEs) tend to accumulate at regions of low recombination and/or promote structural rearrangements, we expect inversions to occur at TE enriched regions.
+							We observed that this is generally true:
+							<span class="image fit"><img src="images/CDS_TE_plot.png" alt="" /></span>
+
+								<header>
+									<h4>Read more: </h4>
+									<p>Hirabayashi, K., Owens, GL. "The rate of inversion fixation in plant genomes is highly variable." bioRxiv. (preprint) <a href="https://doi.org/10.1101/2022.08.31.506062">https://doi.org/10.1101/2022.08.31.506062.</a><br />
+									Codes are found <a href="https://github.com/kaede0e/two-species-genome-comparison-pipeline">here</a>,
+									Poster is found <a href="https://figshare.com/articles/poster/Comparative_genomics_chromosomal_inversions_in_eudicots_without_adaptive_selection/20082560">here</a>
+									</p>
+								</header>
+								<hr />
+							<h3>Future perspectives and follow-up studies </h3>
+							But whether the trends observed here are driving inversions or caused by inversions after the fact cannot be inferred from our data.
+							Inversions could occur at regions of high TEs and low CDS, or inversions fixed by chance could accumulate more TEs and less CDS as genome evolves.
+							This would require additional common ancestral species comparison to determine which species carries the ancestral or derived inversions.
+						</header>
+
+					</div>
+
+					<!-- Footer -->
+						<footer id="footer">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="3"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split contact">
+								<section class="alt">
+									<h3>Address</h3>
+									<p>UVic Cunningham Bd. 040c<br />
+									Victoria, BC</p>
+								</section>
+								<section>
+									<h3>Email</h3>
+									<p><a href="#">khirabayashi@uvic.ca</a></p>
+								</section>
+								<section>
+									<h3>Social</h3>
+									<ul class="icons alt">
+										<li><a href="https://github.com/kaede0e" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</section>
+							</section>
+						</footer>
+
+					<!-- Copyright -->
+						<div id="copyright">
+							<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						</div>
+
+				</div>
+
+			<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.scrollex.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+
+		</body>
+	</html>
